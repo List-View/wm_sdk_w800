@@ -1,0 +1,3 @@
+
+CONFIG_W800_USE_LIB=y
+sinclude Makefile

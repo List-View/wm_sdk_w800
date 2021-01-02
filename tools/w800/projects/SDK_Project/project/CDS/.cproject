@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.csky.cds.debug.core.CSKY_ABIV2_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="w800" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exeWithoutOs" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exeWithoutOs" cleanCommand="rm -rf" description="" id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669" name="Debug" parent="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug" postbuildStep="sh ../$(ProjectPath)/../../../../../../tools/w800/utilities//aft_build_project.sh">
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669." name="/" resourcePath="">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug.678953959" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug.395593016" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug"/>
+							<builder buildPath="${workspace_loc:/test}/Debug" id="cds.managedbuild.target.ckcoregcc.builder.abiv2.exeWithoutOs.debug.843811185" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="cds.managedbuild.target.ckcoregcc.builder.abiv2.exeWithoutOs.debug"/>
+							<tool command="csky-elfabiv2-gcc" id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.2140391353" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug">
+								<option id="ckcoregcc.asm.option.elf.abiv2.cputype.435376571" name="CPUType" superClass="ckcoregcc.asm.option.elf.abiv2.cputype" value="ckcoregcc.assembler.CPUType.ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.both.asm.option.flags.1487362757" name="Assembler Flags" superClass="ckcoregcc.both.asm.option.flags" value="-c -mhard-float" valueType="string"/>
+								<option id="ckcoregcc.both.asm.option.include.paths.205347922" name="Include paths (-I)" superClass="ckcoregcc.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include/"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.278759414" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.969853" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.166748743" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug">
+								<option id="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.option.optimization.level.473887835" name="Optimization Level" superClass="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.option.optimization.level"/>
+								<option id="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.option.debugging.level.1512789713" name="Debug Level" superClass="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.option.debugging.level" value="ckcoregcc.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="ckcoregcc.cpp.compiler.option.elf.abiv2.cputype.661091081" name="CPUType" superClass="ckcoregcc.cpp.compiler.option.elf.abiv2.cputype" value="ckcoregcc.cpp.compiler.CPUType.ck804ef" valueType="enumerated"/>
+							</tool>
+							<tool command="csky-elfabiv2-gcc" id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.108860879" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug">
+								<option id="ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.option.optimization.level.385434008" name="Optimization Level" superClass="ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.option.optimization.level" value="ckcoregcc.c.compiler.optimization.level.more" valueType="enumerated"/>
+								<option id="ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.option.debugging.level.1075951897" name="Debug Level" superClass="ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.option.debugging.level" value="ckcoregcc.c.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="ckcoregcc.compiler.option.elf.abiv2.cputype.73022155" name="CPUType" superClass="ckcoregcc.compiler.option.elf.abiv2.cputype" value="ckcoregcc.compiler.CPUType.ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.c.compiler.option.include.paths.662353699" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+								</option>
+								<option id="ckcoregcc.c.compiler.option.other.ffunctionsection.1091180773" name="Place each function item into its own section(-ffunction-sections)" superClass="ckcoregcc.c.compiler.option.other.ffunctionsection" value="true" valueType="boolean"/>
+								<option id="ckcoregcc.c.compiler.option.optimization.flags.455508087" name="Other optimization flags" superClass="ckcoregcc.c.compiler.option.optimization.flags" value="-fdata-sections -mhard-float" valueType="string"/>
+								<option id="ckcoregcc.c.compiler.option.preprocessor.def.1202825385" name="Defined symbols (-D)" superClass="ckcoregcc.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GCC_COMPILE=1"/>
+									<listOptionValue builtIn="false" value="TLS_CONFIG_CPU_XT804=1"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.1816363685" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.512242842" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2"/>
+							<tool command="csky-elfabiv2-gcc" id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.582147761" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug">
+								<option id="ckcoregcc.linker.option.elf.abiv2.cputype.1040369663" name="CPUType" superClass="ckcoregcc.linker.option.elf.abiv2.cputype" value="ckcoregcc.linker.CPUType.ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.link.option.linkfile.1995022222" name="Link file (-T)" superClass="ckcoregcc.link.option.linkfile" value="&quot;${workspace_loc:/${ProjName}/ld/w800/gcc_csky.ld}&quot;" valueType="string"/>
+								<option id="ckcoregcc.link.category.other.1959706630" name="Linker flags" superClass="ckcoregcc.link.category.other" value="-Wl,-zmax-page-size=1024 -mhard-float" valueType="string"/>
+								<option id="ckcoregcc.link.option.libs.898988714" name="Libraries (-l)" superClass="ckcoregcc.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="bt"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wlan"/>
+								</option>
+								<option id="ckcoregcc.link.option.paths.1718318359" name="Library search path (-L)" superClass="ckcoregcc.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../../../../../../lib/w800"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.linker.input.1972800233" superClass="cds.managedbuild.tool.ckcoregcc.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.1873895689" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug">
+								<option id="ckcoregcc.default.option.elf.abiv2.cputype.1935354941" name="CPUType" superClass="ckcoregcc.default.option.elf.abiv2.cputype" value="ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.default.option.isBigEndian.2004328235" name="Big endian (default is little endian)" superClass="ckcoregcc.default.option.isBigEndian" value="false" valueType="boolean"/>
+								<option id="ckcoregcc.default.option.isHardFloat.189009558" name="Hard float (-mhard-float)" superClass="ckcoregcc.default.option.isHardFloat" value="false" valueType="boolean"/>
+								<option id="ckcoregcc.default.option.isEnhancedLRW.1550112740" name="Enhanced LRW(-Wa,-melrw)" superClass="ckcoregcc.default.option.isEnhancedLRW" value="false" valueType="boolean"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669.1510487842" name="/" resourcePath="demo">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug.1547094692" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug" unusedChildren="">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.829084727" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.1873895689"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.2102265874" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.2140391353">
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.216228169" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.1829995837" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.981659461" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.166748743"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.1925833159" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.108860879">
+								<option id="ckcoregcc.c.compiler.option.include.paths.42285442" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/libs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/drivers/psram"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/fatfs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/ports"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include/mbedtls"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.1389486564" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1501387167" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.512242842"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.577445898" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.582147761"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669.1452724317" name="/" resourcePath="src">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug.1219708350" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug" unusedChildren="">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.318681172" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.1873895689"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.52619305" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.2140391353">
+								<option id="ckcoregcc.both.asm.option.include.paths.1041184748" name="Include paths (-I)" superClass="ckcoregcc.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include/"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.1251626694" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.1861259849" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.227378775" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.166748743"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.862430237" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.108860879">
+								<option id="ckcoregcc.c.compiler.option.include.paths.231111636" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.580079126" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1600970931" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.512242842"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.10770208" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.582147761"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669.58027686" name="/" resourcePath="src/app/mbedtls">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug.839458963" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug" unusedChildren="">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.526447441" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.318681172"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.1802513425" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.52619305">
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.1026599629" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.1782564366" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.1342354806" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.227378775"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.978754398" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.862430237">
+								<option id="ckcoregcc.c.compiler.option.include.paths.648652507" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/libs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/drivers/psram"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/fatfs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/ports"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include/mbedtls"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.1861013197" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1188620709" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1600970931"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.1785773460" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.10770208"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669.2040769017" name="/" resourcePath="src/network">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug.1589073632" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.debug" unusedChildren="">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.debug"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.134240929" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.debug.318681172"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.1660573226" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.debug.52619305">
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.284479708" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.655137968" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.1140425553" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.debug.227378775"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.983613359" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.862430237">
+								<option id="ckcoregcc.c.compiler.option.include.paths.1772213270" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/libs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/drivers/psram"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/fatfs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/sys"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.109878195" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.2060234486" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1600970931"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.713170564" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.debug.10770208"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669.2061197270" name="wm_config.h" rcbsApplicability="disable" resourcePath="include/wm_config.h" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding="csi_kernel/ucos3|src/bt/controller/modules/nvds|src/bt/controller/plf/xt804/src/arch/main/wm_hci_uart.c|platform/drivers/uart/bt_uart.c|csi_kernel/rhino" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="cdsBuildOutput" name="Debug">
+				<buildoutput callgraphfile="false" ckmapfile="false" elfbinaryfile="true" elfdisassemblyfile="false" elfembeddedsource="false" elfinformationfile="false" intelhex="true" mapfile="true" motorolahex="false" objectdisassemblyfile="false" objectembeddedsource="false" objectinformationfile="false" preprocessorfile="false"/>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.csky.cds.debug.core.CSKY_ABIV2_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="w800" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exeWithoutOs" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exeWithoutOs" cleanCommand="rm -rf" description="" id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817" name="Release" parent="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release" postbuildStep="sh ../$(ProjectPath)/../../../../../../tools/w800/utilities//aft_build_project.sh">
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817." name="/" resourcePath="">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release.1919191962" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.release.2123571395" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.release"/>
+							<builder buildPath="${workspace_loc:/test}/Release" id="cds.managedbuild.target.ckcoregcc.builder.abiv2.exeWithoutOs.release.352813083" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cds.managedbuild.target.ckcoregcc.builder.abiv2.exeWithoutOs.release"/>
+							<tool command="csky-elfabiv2-gcc" id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release.1127903730" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release">
+								<option id="ckcoregcc.asm.option.elf.abiv2.cputype.626923624" name="CPUType" superClass="ckcoregcc.asm.option.elf.abiv2.cputype" value="ckcoregcc.assembler.CPUType.ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.both.asm.option.flags.1487362757" name="Assembler Flags" superClass="ckcoregcc.both.asm.option.flags" value="-c -mhard-float" valueType="string"/>
+								<option id="ckcoregcc.both.asm.option.include.paths.781201378" name="Include paths (-I)" superClass="ckcoregcc.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include/"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.709167814" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.1112614523" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.1717268767" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release">
+								<option id="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.option.optimization.level.2074364995" name="Optimization Level" superClass="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.option.optimization.level" value="Optimize size (-Os)" valueType="enumerated"/>
+								<option id="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.option.debugging.level.28478487" name="Debug Level" superClass="ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.option.debugging.level" value="ckcoregcc.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="ckcoregcc.cpp.compiler.option.elf.abiv2.cputype.869372374" name="CPUType" superClass="ckcoregcc.cpp.compiler.option.elf.abiv2.cputype" value="ckcoregcc.cpp.compiler.CPUType.ck804ef" valueType="enumerated"/>
+							</tool>
+							<tool command="csky-elfabiv2-gcc" id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.1804550981" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release">
+								<option id="ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.option.optimization.level.30869426" name="Optimization Level" superClass="ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.option.optimization.level" value="Optimize size (-Os)" valueType="enumerated"/>
+								<option id="ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.option.debugging.level.2010564886" name="Debug Level" superClass="ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.option.debugging.level" value="ckcoregcc.c.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="ckcoregcc.compiler.option.elf.abiv2.cputype.1833618555" name="CPUType" superClass="ckcoregcc.compiler.option.elf.abiv2.cputype" value="ckcoregcc.compiler.CPUType.ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.c.compiler.option.include.paths.821706755" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+								</option>
+								<option id="ckcoregcc.c.compiler.option.other.ffunctionsection.1091998003" name="Place each function item into its own section(-ffunction-sections)" superClass="ckcoregcc.c.compiler.option.other.ffunctionsection" value="true" valueType="boolean"/>
+								<option id="ckcoregcc.c.compiler.option.optimization.flags.455508087" name="Other optimization flags" superClass="ckcoregcc.c.compiler.option.optimization.flags" value="-fdata-sections -mhard-float" valueType="string"/>
+								<option id="ckcoregcc.c.compiler.option.preprocessor.def.877403081" name="Defined symbols (-D)" superClass="ckcoregcc.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="GCC_COMPILE=1"/>
+									<listOptionValue builtIn="false" value="TLS_CONFIG_CPU_XT804=1"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.823027310" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1781072434" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2"/>
+							<tool command="csky-elfabiv2-gcc" id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release.1368188654" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release">
+								<option id="ckcoregcc.linker.option.elf.abiv2.cputype.1474562646" name="CPUType" superClass="ckcoregcc.linker.option.elf.abiv2.cputype" value="ckcoregcc.linker.CPUType.ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.link.category.other.1001232980" name="Linker flags" superClass="ckcoregcc.link.category.other" value="-Wl,-zmax-page-size=1024 -mhard-float" valueType="string"/>
+								<option id="ckcoregcc.link.option.libs.1402450051" name="Libraries (-l)" superClass="ckcoregcc.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="m"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="bt"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wlan"/>
+								</option>
+								<option id="ckcoregcc.link.option.paths.1718318359" name="Library search path (-L)" superClass="ckcoregcc.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../../../../../../lib/w800"/>
+								</option>
+								<option id="ckcoregcc.link.option.linkfile.815542103" name="Link file (-T)" superClass="ckcoregcc.link.option.linkfile" value="&quot;${workspace_loc:/${ProjName}/ld/w800/gcc_csky.ld}&quot;" valueType="string"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.linker.input.1685182823" superClass="cds.managedbuild.tool.ckcoregcc.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release.1084594441" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release">
+								<option id="ckcoregcc.default.option.elf.abiv2.cputype.190072887" name="CPUType" superClass="ckcoregcc.default.option.elf.abiv2.cputype" value="ck804ef" valueType="enumerated"/>
+								<option id="ckcoregcc.default.option.isBigEndian.2074395643" name="Big endian (default is little endian)" superClass="ckcoregcc.default.option.isBigEndian" value="false" valueType="boolean"/>
+								<option id="ckcoregcc.default.option.isHardFloat.1978196217" name="Hard float (-mhard-float)" superClass="ckcoregcc.default.option.isHardFloat" value="false" valueType="boolean"/>
+								<option id="ckcoregcc.default.option.isEnhancedLRW.256276914" name="Enhanced LRW(-Wa,-melrw)" superClass="ckcoregcc.default.option.isEnhancedLRW" value="false" valueType="boolean"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817.856949837" name="/" resourcePath="demo">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release.2006504613" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release" unusedChildren="">
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release.669383720" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release.1084594441"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release.643911019" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release.1127903730">
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.880128760" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.910359625" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.1924372181" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.1717268767"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.1626229607" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.1804550981">
+								<option id="ckcoregcc.c.compiler.option.include.paths.1881968700" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/libs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/drivers/psram"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/fatfs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/ports"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include/mbedtls"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.823850736" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1045314812" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1781072434"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release.1354569871" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release.1368188654"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817.1604928176" name="/" resourcePath="src/app/mbedtls">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release.552515677" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release" unusedChildren="">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.release" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.release"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release.753291445" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release.1084594441"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release.1961386924" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release.1127903730">
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.35490427" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.1241078401" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.798561174" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.1717268767"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.60213711" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.1804550981">
+								<option id="ckcoregcc.c.compiler.option.include.paths.1567427938" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/libs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/drivers/psram"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/fatfs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/ports"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mbedtls/include/mbedtls"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.993665913" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1308420870" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1781072434"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release.855337947" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release.1368188654"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817.583239606" name="/" resourcePath="src/network">
+						<toolChain id="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release.1961504355" name="CSky abiv2 Elf Toolchain" superClass="cds.managedbuild.toolchain.ckcoregcc.abiv2.exeWithoutOs.release" unusedChildren="">
+							<targetPlatform id="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.release" name="Debug Platform" superClass="cds.managedbuild.target.ckcoregcc.platform.abiv2.exeWithoutOs.release"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release.993140726" name="All Tools Settings" superClass="cds.managedbuild.tool.ckcoregcc.default.abiv2.exeWithoutOs.release.1084594441"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release.368096035" name="CSky Elf Assembler" superClass="cds.managedbuild.tool.ckcoregcc.assembler.abiv2.exeWithoutOs.release.1127903730">
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input2.978562414" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input2"/>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.assembler.input1.1959757847" superClass="cds.managedbuild.tool.ckcoregcc.assembler.input1"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.1393774232" name="CSky Elf C++ Compiler" superClass="cds.managedbuild.tool.ckcoregcc.cpp.compiler.abiv2.exeWithoutOs.release.1717268767"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.1634602183" name="CSky Elf C Compiler" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.1804550981">
+								<option id="ckcoregcc.c.compiler.option.include.paths.638411977" name="Include paths (-I)" superClass="ckcoregcc.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../../../../../../demo"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/csi_core"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/arch/xt804/libs"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/app"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/driver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/net"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/os"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/platform"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/wifi"/>
+									<listOptionValue builtIn="false" value="../../../../../../../include/bt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/arch/xt804/bsp/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/params"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/digest"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/keyformat"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/math"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/prng"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/pubkey"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/common/crypto/symmetric"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/drivers/psram"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/sys"/>
+									<listOptionValue builtIn="false" value="../../../../../../../platform/inc"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dhcpserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/dnsserver"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ping"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/iperf"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/wm_atcmd"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/httpclient"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/ota"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/matrixssl"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/polarssl/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/libwebsockets-2.1-stable"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSCore"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mDNS/mDNSPosix"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/mqtt"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/lwip2.0.3/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/network/api2.0.3"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/os/rtos/include"/>
+									<listOptionValue builtIn="false" value="../../../../../../../src/app/fatfs"/>
+								</option>
+								<inputType id="cds.managedbuild.tool.ckcoregcc.c.compiler.input.1823630661" superClass="cds.managedbuild.tool.ckcoregcc.c.compiler.input"/>
+							</tool>
+							<tool id="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1534631842" name="CSky Elf Binary Linker" superClass="cds.managedbuild.tool.ckcoregcc.binary.base.elf.linker.abiv2.1781072434"/>
+							<tool id="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release.487893322" name="CSky Elf Linker" superClass="cds.managedbuild.tool.ckcoregcc.linker.cygwin.abiv2.exeWithoutOs.release.1368188654"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="csi_kernel/ucos3|src/bt/controller/modules/nvds|src/bt/controller/plf/xt804/src/arch/main/wm_hci_uart.c|platform/drivers/uart/bt_uart.c|csi_kernel/rhino" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="cdsBuildOutput" name="Release">
+				<buildoutput callgraphfile="false" ckmapfile="false" elfbinaryfile="true" elfdisassemblyfile="false" elfembeddedsource="false" elfinformationfile="false" intelhex="true" mapfile="true" motorolahex="false" objectdisassemblyfile="false" objectembeddedsource="false" objectinformationfile="false" preprocessorfile="false"/>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="test.cds.managedbuild.target.ckcoregcc.abiv2.exeWithoutOs.1935808622" name="Application Without OS" projectType="cds.managedbuild.target.ckcoregcc.abiv2.exeWithoutOs"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="DebugLaunch">
+		<launch BAutoRun="true" BDebugInRom="false" BEcosSystem="false" BFirstReset="false" BLoadImage="true" BNoGraphic="true" BOutputLog="false" BPreloadScript="false" BSecondReset="false" BStopAt="true" Connect="Normal" DebugResetType="Hard Reset" FirstReset="Hard Reset" LockConnect="false" LockDebugResetType="false" LockFirstReset="false" LockLaunchOption="false" LockLaunchSteps="false" LockSResetCommand="false" LockSecondReset="false" Machine="" RegisterGroups="" SResetCommand="0" SecondReset="Soft Reset" SimOtherFlags="" StopAtFunction="main"/>
+		<flash ApplicationPath="Debug\soc_verify_drivers.elf" ApplicationType="0" BChipErase="false" BEraseRange="false" BEraseSectors="true" BFlashProgramming="true" BFlashResetandRun="false" BFlashRunMode="false" BFlashVerify="true" BJtagServer="false" BLocalJtag="true" BNotErase="false" BSaved="true" BUseDDC="true" CommandTimeout="60" Delayformtcr="10" EraseLength="" EraseStart="" FlashConnect="Normal" FlashDriverPath="" FlashTemplateName="" ICECLK="2000" JtagServerIP="localhost" JtagServerPort="1025" LocalJTAGFlags="" LockDebugConnection="false" LockDownload="false" LockFlash="false" LockSResetCommand="false" PathPreDownload="" SResetCommand="0"/>
+		<debugscript ContinueScriptPath="" HResetScriptPath="" InitScriptPath="../../../../utilities/gdb.init" LockScriptSelect="false" PreloadScriptPath="" SResetScriptPath="" StopScriptPath=""/>
+		<connection BJtagServer="false" BLocalJtag="true" BSimulator="false" BUseDDC="true" Delayformtcr="10" ICECLK="2000" JtagServerIP="localhost" JtagServerPort="1025" LocalJTAGFlags="" LockDebugConnection="false"/>
+	</storageModule>
+	<storageModule moduleId="cdsBuildSystem">
+		<version id="4.1.1">
+			<import value="V4.18.1 B20200107"/>
+		</version>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/w800_sdk"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/w800_sdk"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="libWlan.a" path="Src/Wlan" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments>-j4</buildArguments>
+				<buildTarget>libWlan.a</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817;cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.release.1526901817.;cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.release.1804550981;cds.managedbuild.tool.ckcoregcc.c.compiler.input.823027310">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.csky.cds.managedbuilder.core.CDSGCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669;cds.managedbuild.config.ckcoregcc.abiv2.exeWithoutOs.debug.1399395669.;cds.managedbuild.tool.ckcoregcc.c.compiler.abiv2.exeWithoutOs.debug.108860879;cds.managedbuild.tool.ckcoregcc.c.compiler.input.1816363685">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.csky.cds.managedbuilder.core.CDSGCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
